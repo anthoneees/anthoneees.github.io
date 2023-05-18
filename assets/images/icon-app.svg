@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="64" height="64">
+	<title>icons8-books-50</title>
+	<defs>
+		<image  width="46" height="46" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC4AAAAuCAMAAABgZ9sFAAAAAXNSR0IB2cksfwAAAFRQTFRF8tBr8tBr8tBr8tBr8tBr8tBr8tBr8tBr8tBr8tBr8tBr8tBr8tBr8tBr8tBr8tBr8tBr8tBr8tBr8tBr8tBr8tBr8tBr8tBr8tBr8tBr8tBr8tBrXRikqAAAABx0Uk5TAByr8v/tsxtI4+L+Af0CA/yq+/GttCbsqZ/r+qQ3UqoAAADfSURBVHiczZRtC4JAEITP3NJMy7T3/v//LITCdmYHLgiaj+vDMuc9XErForQgCVMsI5jiC1tVZPwMxUsLaI5Pw3r92aKpJd741o3E/Rc6/AbfWJtTZsJrx6ujtmT6bkS3/wzvbOtHSjrEpXSIS+kQl9J1tmNHjKQL8OiesYy0KBPvoYyULsAj6RCX0mXje7h0sGiOY8T2AQwhjs5xb4jERyvcsFf4wY6Ol/jpjEf1v3aGp+oy5uAQWYbhmdv/CB/seiMiTaHb49Dt0bNEcw+fJRqUTgalk2HSiaMy6V55AOUbDxPatOIKAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+	</style>
+	<use id="Background" href="#img1" x="2" y="2"/>
+</svg>

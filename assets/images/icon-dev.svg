@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="64" height="64">
+	<title>icons8-laptop-coding-50</title>
+	<defs>
+		<image  width="48" height="34" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAiCAMAAAAuwqolAAAAAXNSR0IB2cksfwAAAM9QTFRF8tBr8tBr8tBr8tBr8tBr8tBr8tBr8tBr8tBr8tBr8tBr8tBr8tBr8tBr8tBr8tBr8tBr8tBr8tBr8tBr8tBr8tBr8tBr8tBr8tBr8tBr8tBr8tBr8tBr8tBr8tBr8tBr8tBr8tBr8tBr8tBr8tBr8tBr8tBr8tBr8tBr8tBr8tBr8tBr8tBr8tBr8tBr8tBr8tBr8tBr8tBr8tBr8tBr8tBr8tBr8tBr8tBr8tBr8tBr8tBr8tBr8tBr8tBr8tBr8tBr8tBr8tBr8tBr8tBrUCs3vQAAAEV0Uk5TACux8v8q8bAaG0lNoWnZMwvIxBH+9wafzkbGz1n0fo4mX7RXCdDpINQi6rOQfMnDNddqTO4c7auyxfO+c3S9+hX7S4SDKtrvXAAAARdJREFUeJzFlFlXwjAQhYfmGimglrIv7uLG4lIVRai4/P/fZFJakR5sJi9yH3In7f1yZppzSqSUcwSMEs4WxcpJc1xLJoSD7TwZlVexuBRg5IlcyLgCOPlfuQ0BBVm0A0rYsQN2sccCvLIfeaVaqyvzy54BaKAZeQttbR00soEu9hf3f4BDbUcCx1nA8v0JTldPWAuc9X46OMdF0uOlxwCucE0MYNlSF/3UUIahBximhvoDUB10tLXRirY902clb3Sj1nqtWom25otb6BZ36UfZwD1KdkAgAjtgvf4ReIDLyT/iKa7GeGYQbh9j7S+832QinyZ2gKRXTHkja80QUoC36ZwXn8/e8UH0adPRlwaDkDnHJFTnfwNtXxZ5TQ2zAQAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+	</style>
+	<use id="Background" href="#img1" x="1" y="8"/>
+</svg>

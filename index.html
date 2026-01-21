@@ -1,824 +1,752 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Anthony Snider Portfolio</title>
 
-    <!--
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Anthony Snider Portfolio</title>
+
+  <!--
     - favicon
   -->
-    <link
-      rel="shortcut icon"
-      href="./assets/images/logo.ico"
-      type="image/x-icon"
-    />
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon" />
 
-    <!--
+  <!--
     - custom css link
   -->
-    <link rel="stylesheet" href="./assets/css/style.css" />
+  <link rel="stylesheet" href="./assets/css/style.css" />
 
-    <!--
+  <!--
     - google font link
   -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
-      rel="stylesheet"
-    />
-  </head>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+</head>
 
-  <body>
-    <!--
+<body>
+  <!-- Migration Banner -->
+  <div class="migration-banner">
+    My portfolio site is moving to
+    <a href="https://www.anthonysnider.com" target="_blank" rel="noopener noreferrer">
+      www.anthonysnider.com
+    </a>
+  </div>
+  <!--
     - #MAIN
   -->
 
-    <main>
-      <!--
+  <main>
+    <!--
       - #SIDEBAR
     -->
 
-      <aside class="sidebar" data-sidebar>
-        <div class="sidebar-info">
-          <figure class="avatar-box">
-            <img
-              src="./assets/images/a6.jpeg"
-              alt="Anthony Snider"
-              width="80"
-            />
-          </figure>
+    <aside class="sidebar" data-sidebar>
+      <div class="sidebar-info">
+        <figure class="avatar-box">
+          <img src="./assets/images/a6.jpeg" alt="Anthony Snider" width="80" />
+        </figure>
 
-          <div class="info-content">
-            <h1 class="name" title="Anthony Snider">Anthony Snider</h1>
+        <div class="info-content">
+          <h1 class="name" title="Anthony Snider">Anthony Snider</h1>
 
-            <p class="title">B.S. Computer Science</p>
-          </div>
-
-          <button class="info_more-btn" data-sidebar-btn>
-            <span>Show Contacts</span>
-
-            <ion-icon name="chevron-down"></ion-icon>
-          </button>
+          <p class="title">B.S. Computer Science</p>
         </div>
 
-        <div class="sidebar-info_more">
-          <div class="separator"></div>
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
 
-          <ul class="contacts-list">
-            <li class="contact-item">
-              <div class="icon-box">
-                <ion-icon name="mail-outline"></ion-icon>
-              </div>
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+      </div>
 
-              <div class="contact-info">
-                <p class="contact-title">Email</p>
+      <div class="sidebar-info_more">
+        <div class="separator"></div>
 
-                <a href="mailto:anthon.ee.es@gmail.com" class="contact-link"
-                  >anthon.ee.es@gmail.com</a
-                >
-              </div>
-            </li>
+        <ul class="contacts-list">
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
 
-            <li class="contact-item">
-              <div class="icon-box">
-                <ion-icon name="phone-portrait-outline"></ion-icon>
-              </div>
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
 
-              <div class="contact-info">
-                <p class="contact-title">Phone</p>
+              <a href="mailto:anthon.ee.es@gmail.com" class="contact-link">anthon.ee.es@gmail.com</a>
+            </div>
+          </li>
 
-                <a href="tel:+15714472131" class="contact-link"
-                  >+1 (571) 447-2131</a
-                >
-              </div>
-            </li>
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
 
-            <li class="contact-item">
-              <div class="icon-box">
-                <ion-icon name="calendar-outline"></ion-icon>
-              </div>
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
 
-              <div class="contact-info">
-                <p class="contact-title">Birthday</p>
+              <a href="tel:+15714472131" class="contact-link">+1 (571) 447-2131</a>
+            </div>
+          </li>
 
-                <time datetime="2003-07-24">July 24, 2003</time>
-              </div>
-            </li>
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
 
-            <li class="contact-item">
-              <div class="icon-box">
-                <ion-icon name="location-outline"></ion-icon>
-              </div>
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
 
-              <div class="contact-info">
-                <p class="contact-title">Location</p>
+              <time datetime="2003-07-24">July 24, 2003</time>
+            </div>
+          </li>
 
-                <address>Burke, Virginia, USA</address>
-              </div>
-            </li>
-          </ul>
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
 
-          <div class="separator"></div>
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
 
-          <ul class="social-list">
-            <li class="social-item">
-              <a
-                href="https://www.linkedin.com/in/anthony-snider-22468425b/"
-                class="social-link"
-              >
-                <ion-icon name="logo-linkedin"></ion-icon>
-              </a>
-            </li>
+              <address>Burke, Virginia, USA</address>
+            </div>
+          </li>
+        </ul>
 
-            <li class="social-item">
-              <a href="https://github.com/anthoneees" class="social-link">
-                <ion-icon name="logo-github"></ion-icon>
-              </a>
-            </li>
-          </ul>
-        </div>
-      </aside>
+        <div class="separator"></div>
 
-      <!--
+        <ul class="social-list">
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/anthony-snider-22468425b/" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/anthoneees" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </aside>
+
+    <!--
       - #main-content
     -->
 
-      <div class="main-content">
-        <!--
+    <div class="main-content">
+      <!--
         - #NAVBAR
       -->
 
-        <nav class="navbar">
-          <ul class="navbar-list">
-            <li class="navbar-item">
-              <button class="navbar-link active" data-nav-link>About</button>
-            </li>
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <button class="navbar-link active" data-nav-link>About</button>
+          </li>
 
-            <li class="navbar-item">
-              <button class="navbar-link" data-nav-link>Resume</button>
-            </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
 
-            <li class="navbar-item">
-              <button class="navbar-link" data-nav-link>Portfolio</button>
-            </li>
-          </ul>
-        </nav>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+        </ul>
+      </nav>
 
-        <!--
+      <!--
         - #ABOUT
       -->
 
-        <article class="about active" data-page="about">
-          <header>
-            <h2 class="h2 article-title">About me</h2>
-          </header>
+      <article class="about active" data-page="about">
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
 
-          <section class="about-text">
-            <p>
-              I'm Anthony Snider, a Computer Science graduate from George Mason
-              University, specializing in software development and full-stack
-              web applications. My studies provided me with a strong foundation
-              in data structures, algorithms, web development, and cloud
-              computing. I thrive in collaborative environments and am
-              passionate about building efficient, scalable applications. I've
-              worked on personal and academic projects that integrate front-end
-              and back-end technologies to create dynamic and user-friendly
-              experiences. I'm currently seeking full-time opportunities where I
-              can contribute to innovative projects and continue growing as a
-              developer.
-            </p>
-          </section>
+        <section class="about-text">
+          <p>
+            I'm Anthony Snider, a Computer Science graduate from George Mason
+            University, specializing in software development and full-stack
+            web applications. My studies provided me with a strong foundation
+            in data structures, algorithms, web development, and cloud
+            computing. I thrive in collaborative environments and am
+            passionate about building efficient, scalable applications. I've
+            worked on personal and academic projects that integrate front-end
+            and back-end technologies to create dynamic and user-friendly
+            experiences. I'm currently seeking full-time opportunities where I
+            can contribute to innovative projects and continue growing as a
+            developer.
+          </p>
+        </section>
 
-          <!--
+        <!--
           - service
         -->
 
-          <section class="service">
-            <h3 class="h3 service-title">What i'm doing</h3>
+        <section class="service">
+          <h3 class="h3 service-title">What i'm doing</h3>
 
-            <ul class="service-list">
-              <li class="service-item">
-                <div class="service-icon-box">
-                  <img
-                    src="./assets/images/icon-design.svg
-                "
-                    alt="design icon"
-                    width="40"
-                  />
-                </div>
+          <ul class="service-list">
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40" />
+              </div>
 
-                <div class="service-content-box">
-                  <h4 class="h4 service-item-title">Skills</h4>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Skills</h4>
 
-                  <p class="service-item-text">
-                    Java <br />
-                    C <br />
-                    Python <br />
-                    HTML <br />
-                    CSS <br />
-                    JavaScript <br />
-                    SQL <br />
-                    Django <br />
-                    React <br />
-                    Node <br />
-                    Express <br />
-                    Tailwind <br />
-                    Agile <br />
-                    Google API <br />
-                    VSCode <br />
-                    Git <br />
-                    GitHub <br />
-                    Eclipse <br />
-                    IntelliJ <br />
-                    Maven <br />
-                    JUnit <br />
-                    JavaFX <br />
-                    Data Structures <br />
-                    Algorithms <br />
-                    AWS <br />
-                    Windows <br />
-                    Linux <br />
-                    VMware <br />
-                    PostgreSQL <br />
-                    MongoDB <br />
-                    AWS Cloud Practitioner <br />
-                  </p>
-                </div>
-              </li>
+                <p class="service-item-text">
+                  Java <br />
+                  C <br />
+                  Python <br />
+                  HTML <br />
+                  CSS <br />
+                  JavaScript <br />
+                  SQL <br />
+                  Django <br />
+                  React <br />
+                  Node <br />
+                  Express <br />
+                  Tailwind <br />
+                  Agile <br />
+                  Google API <br />
+                  VSCode <br />
+                  Git <br />
+                  GitHub <br />
+                  Eclipse <br />
+                  IntelliJ <br />
+                  Maven <br />
+                  JUnit <br />
+                  JavaFX <br />
+                  Data Structures <br />
+                  Algorithms <br />
+                  AWS <br />
+                  Windows <br />
+                  Linux <br />
+                  VMware <br />
+                  PostgreSQL <br />
+                  MongoDB <br />
+                  AWS Cloud Practitioner <br />
+                </p>
+              </div>
+            </li>
 
-              <li class="service-item">
-                <div class="service-icon-box">
-                  <img
-                    src="./assets/images/icon-dev.svg"
-                    alt="Web development icon"
-                    width="40"
-                  />
-                </div>
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40" />
+              </div>
 
-                <div class="service-content-box">
-                  <h4 class="h4 service-item-title">Projects</h4>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Projects</h4>
 
-                  <p class="service-item-text">
-                    Working on both personal software projects including a
-                    website for my club volleyball team and many in-school
-                    projects.<br />
-                    You can see my projects on both my linked GitHub, as well as
-                    my portfolio tab on this website.
-                  </p>
-                </div>
-              </li>
+                <p class="service-item-text">
+                  Working on both personal software projects including a
+                  website for my club volleyball team and many in-school
+                  projects.<br />
+                  You can see my projects on both my linked GitHub, as well as
+                  my portfolio tab on this website.
+                </p>
+              </div>
+            </li>
 
-              <li class="service-item">
-                <div class="service-icon-box">
-                  <img
-                    src="./assets/images/icon-app.svg"
-                    alt="mobile app icon"
-                    width="40"
-                  />
-                </div>
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40" />
+              </div>
 
-                <div class="service-content-box">
-                  <h4 class="h4 service-item-title">School</h4>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">School</h4>
 
-                  <p class="service-item-text">
-                    I graduated with a B.S. in Computer Science from George
-                    Mason University with a 3.2 GPA. During my time at GMU, I
-                    served as the president of the Men’s Club Volleyball Team,
-                    leading the team to national competitions while fostering a
-                    competitive and collaborative environment. Additionally, I
-                    was actively involved in the Vietnamese Student Association
-                    (VSA) and the Filipino Cultural Association (FCA), engaging
-                    in cultural events and community-building initiatives.
-                  </p>
-                </div>
-              </li>
-            </ul>
-          </section>
+                <p class="service-item-text">
+                  I graduated with a B.S. in Computer Science from George
+                  Mason University with a 3.2 GPA. During my time at GMU, I
+                  served as the president of the Men’s Club Volleyball Team,
+                  leading the team to national competitions while fostering a
+                  competitive and collaborative environment. Additionally, I
+                  was actively involved in the Vietnamese Student Association
+                  (VSA) and the Filipino Cultural Association (FCA), engaging
+                  in cultural events and community-building initiatives.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </section>
 
-          <!--
+        <!--
           - testimonials modal
         -->
 
-          <div class="modal-container" data-modal-container>
-            <div class="overlay" data-overlay></div>
+        <div class="modal-container" data-modal-container>
+          <div class="overlay" data-overlay></div>
 
-            <section class="testimonials-modal">
-              <button class="modal-close-btn" data-modal-close-btn>
-                <ion-icon name="close-outline"></ion-icon>
-              </button>
+          <section class="testimonials-modal">
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
 
-              <div class="modal-img-wrapper">
-                <figure class="modal-avatar-box">
-                  <img
-                    src="./assets/images/avatar-1.png"
-                    alt="Daniel lewis"
-                    width="80"
-                    data-modal-img
-                  />
-                </figure>
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img />
+              </figure>
 
-                <img src="./assets/images/icon-quote.svg" alt="quote icon" />
+              <img src="./assets/images/icon-quote.svg" alt="quote icon" />
+            </div>
+
+            <div class="modal-content">
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were
+                  very pleased with the work done. She has a lot of experience
+                  and is very concerned about the needs of the client. Lorem
+                  ipsum dolor sit amet, ullamcous cididt consectetur
+                  adipiscing elit, seds do et eiusmod tempor incididunt ut
+                  laborels dolore magnarels alia.
+                </p>
               </div>
+            </div>
+          </section>
+        </div>
+      </article>
 
-              <div class="modal-content">
-                <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
-
-                <time datetime="2021-06-14">14 June, 2021</time>
-
-                <div data-modal-text>
-                  <p>
-                    Richard was hired to create a corporate identity. We were
-                    very pleased with the work done. She has a lot of experience
-                    and is very concerned about the needs of the client. Lorem
-                    ipsum dolor sit amet, ullamcous cididt consectetur
-                    adipiscing elit, seds do et eiusmod tempor incididunt ut
-                    laborels dolore magnarels alia.
-                  </p>
-                </div>
-              </div>
-            </section>
-          </div>
-        </article>
-
-        <!--
+      <!--
         - #RESUME
       -->
 
-        <article class="resume" data-page="resume">
-          <header>
-            <h2 class="h2 article-title">Resume</h2>
-          </header>
+      <article class="resume" data-page="resume">
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
 
-          <section class="timeline">
-            <div class="title-wrapper">
-              <div class="icon-box">
-                <ion-icon name="book-outline"></ion-icon>
-              </div>
-
-              <h3 class="h3">Education</h3>
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
             </div>
 
-            <ol class="timeline-list">
-              <li class="timeline-item">
-                <h4 class="h4 timeline-item-title">George Mason University</h4>
+            <h3 class="h3">Education</h3>
+          </div>
 
-                <span>2021 — 2025</span>
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">George Mason University</h4>
 
-                <p class="timeline-text">
-                  Achieved a Bachelor of Science in Computer Science with a
-                  focus on Security, SWE, and Web Development currently have a
-                  GPA of 3.2. Also president of the Men's Club Volleyball Team,
-                  and a member of VSA, and FCA.
-                </p>
-              </li>
-            </ol>
-          </section>
+              <span>2021 — 2025</span>
 
-          <section class="timeline">
-            <div class="title-wrapper">
-              <div class="icon-box">
-                <ion-icon name="book-outline"></ion-icon>
-              </div>
+              <p class="timeline-text">
+                Achieved a Bachelor of Science in Computer Science with a
+                focus on Security, SWE, and Web Development currently have a
+                GPA of 3.2. Also president of the Men's Club Volleyball Team,
+                and a member of VSA, and FCA.
+              </p>
+            </li>
+          </ol>
+        </section>
 
-              <h3 class="h3">Relevant Classes</h3>
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
             </div>
 
-            <ol class="timeline-list">
-              <li class="timeline-item">
-                <h4 class="h4 timeline-item-title">Software Engineering</h4>
+            <h3 class="h3">Relevant Classes</h3>
+          </div>
 
-                <span>Spring 2024</span>
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Software Engineering</h4>
 
-                <p class="timeline-text">
-                  An introduction to concepts, methods, and tools for the
-                  creation of large-scale software systems. Methods, tools,
-                  notations, and validation techniques to analyze, specify,
-                  prototype, and maintain software requirements. Introduction to
-                  object-oriented requirements modeling, including use of case
-                  modeling, static modeling, and dynamic modeling using the
-                  Unified Modeling Language (UML) notation. Concepts and methods
-                  for the design of large-scale software systems. Fundamental
-                  design concepts and design notations are introduced. A study
-                  of object-oriented analysis and design modeling using the UML
-                  notation. Students participate in a group project on software
-                  requirements, specification, and object-oriented software
-                  design
-                </p>
-              </li>
-              <li class="timeline-item">
-                <h4 class="h4 timeline-item-title">
-                  Computer Systems and Programming
-                </h4>
+              <span>Spring 2024</span>
 
-                <span>Spring 2024</span>
+              <p class="timeline-text">
+                An introduction to concepts, methods, and tools for the
+                creation of large-scale software systems. Methods, tools,
+                notations, and validation techniques to analyze, specify,
+                prototype, and maintain software requirements. Introduction to
+                object-oriented requirements modeling, including use of case
+                modeling, static modeling, and dynamic modeling using the
+                Unified Modeling Language (UML) notation. Concepts and methods
+                for the design of large-scale software systems. Fundamental
+                design concepts and design notations are introduced. A study
+                of object-oriented analysis and design modeling using the UML
+                notation. Students participate in a group project on software
+                requirements, specification, and object-oriented software
+                design
+              </p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">
+                Computer Systems and Programming
+              </h4>
 
-                <p class="timeline-text">
-                  Introduces students to computer systems from a programmer's
-                  perspective. Topics include data representation, assembly and
-                  machine-level representation of high-level language programs,
-                  the memory hierarchy, linking, exceptions, interrupts,
-                  processes and signals, virtual memory, and system-level I/O.
-                  Foundation for courses on compilers; networks; operating
-                  systems; and computer architecture, where a deeper
-                  understanding of systems-level issues is required.
-                </p>
-              </li>
+              <span>Spring 2024</span>
 
-              <li class="timeline-item">
-                <h4 class="h4 timeline-item-title">Data Structures</h4>
+              <p class="timeline-text">
+                Introduces students to computer systems from a programmer's
+                perspective. Topics include data representation, assembly and
+                machine-level representation of high-level language programs,
+                the memory hierarchy, linking, exceptions, interrupts,
+                processes and signals, virtual memory, and system-level I/O.
+                Foundation for courses on compilers; networks; operating
+                systems; and computer architecture, where a deeper
+                understanding of systems-level issues is required.
+              </p>
+            </li>
 
-                <span>Fall 2023</span>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Data Structures</h4>
 
-                <p class="timeline-text">
-                  Focuses on object-oriented programming with an emphasis on
-                  tools and techniques for developing moderate to large
-                  programs. Topics include use and implementation of linear and
-                  nonlinear data structures and the design and analysis of
-                  elementary algorithms.
-                </p>
-              </li>
+              <span>Fall 2023</span>
 
-              <li class="timeline-item">
-                <h4 class="h4 timeline-item-title">
-                  Intro to Low Level Programming
-                </h4>
+              <p class="timeline-text">
+                Focuses on object-oriented programming with an emphasis on
+                tools and techniques for developing moderate to large
+                programs. Topics include use and implementation of linear and
+                nonlinear data structures and the design and analysis of
+                elementary algorithms.
+              </p>
+            </li>
 
-                <span>Spring 2023</span>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">
+                Intro to Low Level Programming
+              </h4>
 
-                <p class="timeline-text">
-                  Introduction to the language C, as well as operating system
-                  concepts, in UNIX, to prepare students for topics in systems
-                  programming
-                </p>
-              </li>
+              <span>Spring 2023</span>
 
-              <li class="timeline-item">
-                <h4 class="h4 timeline-item-title">
-                  Object Oriented Programming
-                </h4>
+              <p class="timeline-text">
+                Introduction to the language C, as well as operating system
+                concepts, in UNIX, to prepare students for topics in systems
+                programming
+              </p>
+            </li>
 
-                <span>Fall 2022</span>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">
+                Object Oriented Programming
+              </h4>
 
-                <p class="timeline-text">
-                  Thorough treatment of programming according to object-oriented
-                  principles. Introduces classes, interfaces, inheritance,
-                  polymorphism, and single dispatch as means to decompose
-                  problems. Covers intermediate programming techniques including
-                  error handling through exceptions, arrangement of source code
-                  into packages, and simple data structures. Intermediate
-                  debugging techniques and unit testing are covered.
-                </p>
-              </li>
+              <span>Fall 2022</span>
 
-              <li class="timeline-item">
-                <h4 class="h4 timeline-item-title">
-                  Intro to Computer Programming
-                </h4>
+              <p class="timeline-text">
+                Thorough treatment of programming according to object-oriented
+                principles. Introduces classes, interfaces, inheritance,
+                polymorphism, and single dispatch as means to decompose
+                problems. Covers intermediate programming techniques including
+                error handling through exceptions, arrangement of source code
+                into packages, and simple data structures. Intermediate
+                debugging techniques and unit testing are covered.
+              </p>
+            </li>
 
-                <span>Spring 2022</span>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">
+                Intro to Computer Programming
+              </h4>
 
-                <p class="timeline-text">
-                  Rigorous introduction to problem-solving through the
-                  development of computer programs. Focuses on identifying
-                  algorithmic patterns in problems, describing problem solutions
-                  in high-level pseudocode, then implementing them in a
-                  procedural programming language. Basic programming concepts
-                  are covered in detail including expressions, control
-                  structures, simple data types, and input/output. Program
-                  testing and debugging are discussed to verify that problems
-                  are solved correctly
-                </p>
-              </li>
-            </ol>
-          </section>
+              <span>Spring 2022</span>
 
-          <section class="timeline">
-            <div class="title-wrapper">
-              <div class="icon-box">
-                <ion-icon name="book-outline"></ion-icon>
-              </div>
+              <p class="timeline-text">
+                Rigorous introduction to problem-solving through the
+                development of computer programs. Focuses on identifying
+                algorithmic patterns in problems, describing problem solutions
+                in high-level pseudocode, then implementing them in a
+                procedural programming language. Basic programming concepts
+                are covered in detail including expressions, control
+                structures, simple data types, and input/output. Program
+                testing and debugging are discussed to verify that problems
+                are solved correctly
+              </p>
+            </li>
+          </ol>
+        </section>
 
-              <h3 class="h3">Work Experience</h3>
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
             </div>
 
-            <ol class="timeline-list">
-              <li class="timeline-item">
-                <h4 class="h4 timeline-item-title">
-                  Leidos Web Developer Intern
-                </h4>
+            <h3 class="h3">Work Experience</h3>
+          </div>
 
-                <span>Summer 2024</span>
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">
+                Leidos Web Developer Intern
+              </h4>
 
-                <p class="timeline-text">
-                  &bull; Converted over 80% of contract data into six dynamic,
-                  user-curated data models, enabling flexible filtering and
-                  analysis to enhance decision-making. <br />
-                  &bull; Designed and implemented front-end features using
-                  Django, HTML, CSS, and JavaScript, ensuring responsiveness and
-                  functionality. <br />
-                  &bull; Developed intuitive graphics and interfaces to improve
-                  user engagement and accessibility. <br />
-                  &bull; Partnered with the project manager to prioritize key
-                  data points, aligning deliverables with client goals and
-                  improving usability. <br />
-                </p>
-              </li>
-              <li class="timeline-item">
-                <h4 class="h4 timeline-item-title">Rizkly CCI Intern</h4>
+              <span>Summer 2024</span>
 
-                <span>Fall 2023</span>
+              <p class="timeline-text">
+                &bull; Converted over 80% of contract data into six dynamic,
+                user-curated data models, enabling flexible filtering and
+                analysis to enhance decision-making. <br />
+                &bull; Designed and implemented front-end features using
+                Django, HTML, CSS, and JavaScript, ensuring responsiveness and
+                functionality. <br />
+                &bull; Developed intuitive graphics and interfaces to improve
+                user engagement and accessibility. <br />
+                &bull; Partnered with the project manager to prioritize key
+                data points, aligning deliverables with client goals and
+                improving usability. <br />
+              </p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Rizkly CCI Intern</h4>
 
-                <p class="timeline-text">
-                  &bull; Developed a dashboard prototype for CMMC V2 compliance
-                  projects on the Rizkly application site.<br />
-                  &bull; Contributed to creating ELK stack from postgres
-                  database to client side app.<br />
-                  &bull; Conducted market research on common KPI for
-                  cybersecurity compliance policies.<br />
-                  &bull; Leveraged technical skill to develop a user-friendly
-                  dashboard for tracking compliance progress.<br />
-                </p>
-              </li>
+              <span>Fall 2023</span>
 
-              <li class="timeline-item">
-                <h4 class="h4 timeline-item-title">
-                  SAIC PBGC Site Support Intern
-                </h4>
+              <p class="timeline-text">
+                &bull; Developed a dashboard prototype for CMMC V2 compliance
+                projects on the Rizkly application site.<br />
+                &bull; Contributed to creating ELK stack from postgres
+                database to client side app.<br />
+                &bull; Conducted market research on common KPI for
+                cybersecurity compliance policies.<br />
+                &bull; Leveraged technical skill to develop a user-friendly
+                dashboard for tracking compliance progress.<br />
+              </p>
+            </li>
 
-                <span>Summer 2023</span>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">
+                SAIC PBGC Site Support Intern
+              </h4>
 
-                <p class="timeline-text">
-                  Worked on-site at the Pension Beneficiary Guarantee Commission
-                  for SAIC. I Handled end-user support for all IT-related issues
-                  PBGC employees had using ServiceNow to recieve ticket
-                  requests.<br />
-                  &bull; ensured smooth IT operations at PBGC, addressing
-                  on-site and remote access needs.<br />
-                  &bull; Conducted on-site installation and testing of IT
-                  equipment to ensure proper working order.<br />
-                  &bull; Provided key interface for user support on new
-                  accounts, issuing new desktops/laptops, phones and mobile
-                  devices, and software needs.<br />
-                  &bull; Installed software maintenance releases and hardware
-                  upgrades, and tested procedures to diagnose and resolve
-                  product performance problems at installation.<br />
-                  &bull; Provided feedback and customer support regarding
-                  product performance problems and suggested solutions that
-                  required product exchanges or complex problem-solving.<br />
-                </p>
-              </li>
-            </ol>
-          </section>
+              <span>Summer 2023</span>
 
-          <section class="skill">
-            <h3 class="h3 skills-title">My skills</h3>
+              <p class="timeline-text">
+                Worked on-site at the Pension Beneficiary Guarantee Commission
+                for SAIC. I Handled end-user support for all IT-related issues
+                PBGC employees had using ServiceNow to recieve ticket
+                requests.<br />
+                &bull; ensured smooth IT operations at PBGC, addressing
+                on-site and remote access needs.<br />
+                &bull; Conducted on-site installation and testing of IT
+                equipment to ensure proper working order.<br />
+                &bull; Provided key interface for user support on new
+                accounts, issuing new desktops/laptops, phones and mobile
+                devices, and software needs.<br />
+                &bull; Installed software maintenance releases and hardware
+                upgrades, and tested procedures to diagnose and resolve
+                product performance problems at installation.<br />
+                &bull; Provided feedback and customer support regarding
+                product performance problems and suggested solutions that
+                required product exchanges or complex problem-solving.<br />
+              </p>
+            </li>
+          </ol>
+        </section>
 
-            <ul class="skills-list content-card">
-              <li class="skills-item">
-                <div class="title-wrapper">
-                  <h5 class="h5">Java</h5>
-                </div>
-              </li>
+        <section class="skill">
+          <h3 class="h3 skills-title">My skills</h3>
 
-              <li class="skills-item">
-                <div class="title-wrapper">
-                  <h5 class="h5">Python</h5>
-                </div>
-              </li>
+          <ul class="skills-list content-card">
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Java</h5>
+              </div>
+            </li>
 
-              <li class="skills-item">
-                <div class="title-wrapper">
-                  <h5 class="h5">C</h5>
-                </div>
-              </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Python</h5>
+              </div>
+            </li>
 
-              <li class="skills-item">
-                <div class="title-wrapper">
-                  <h5 class="h5">Unix</h5>
-                </div>
-              </li>
-              <li class="skills-item">
-                <div class="title-wrapper">
-                  <h5 class="h5">Git</h5>
-                </div>
-              </li>
-              <li class="skills-item">
-                <div class="title-wrapper">
-                  <h5 class="h5">Github</h5>
-                </div>
-              </li>
-              <li class="skills-item">
-                <div class="title-wrapper">
-                  <h5 class="h5">Data Structures</h5>
-                </div>
-              </li>
-              <li class="skills-item">
-                <div class="title-wrapper">
-                  <h5 class="h5">Active Directory</h5>
-                </div>
-              </li>
-              <li class="skills-item">
-                <div class="title-wrapper">
-                  <h5 class="h5">AWS</h5>
-                </div>
-              </li>
-            </ul>
-          </section>
-        </article>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">C</h5>
+              </div>
+            </li>
 
-        <!--
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Unix</h5>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Git</h5>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Github</h5>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Data Structures</h5>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Active Directory</h5>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">AWS</h5>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </article>
+
+      <!--
         - #PORTFOLIO
       -->
 
-        <article class="portfolio" data-page="portfolio">
-          <header>
-            <h2 class="h2 article-title">Portfolio</h2>
-          </header>
+      <article class="portfolio" data-page="portfolio">
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
 
-          <section class="projects">
-            <ul class="filter-list">
-              <li class="filter-item">
-                <button class="active" data-filter-btn>All</button>
+        <section class="projects">
+          <ul class="filter-list">
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>class projects</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>personal projects</button>
+            </li>
+          </ul>
+
+          <div class="filter-select-box">
+            <button class="filter-select" data-select>
+              <div class="select-value" data-selecct-value>
+                Select category
+              </div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+            </button>
+
+            <ul class="select-list">
+              <li class="select-item">
+                <button data-select-item>All</button>
               </li>
 
-              <li class="filter-item">
-                <button data-filter-btn>class projects</button>
+              <li class="select-item">
+                <button data-select-item>class projects</button>
               </li>
 
-              <li class="filter-item">
-                <button data-filter-btn>personal projects</button>
-              </li>
-            </ul>
-
-            <div class="filter-select-box">
-              <button class="filter-select" data-select>
-                <div class="select-value" data-selecct-value>
-                  Select category
-                </div>
-
-                <div class="select-icon">
-                  <ion-icon name="chevron-down"></ion-icon>
-                </div>
-              </button>
-
-              <ul class="select-list">
-                <li class="select-item">
-                  <button data-select-item>All</button>
-                </li>
-
-                <li class="select-item">
-                  <button data-select-item>class projects</button>
-                </li>
-
-                <li class="select-item">
-                  <button data-select-item>personal projects</button>
-                </li>
-              </ul>
-            </div>
-
-            <ul class="project-list">
-              <li
-                class="project-item active"
-                data-filter-item
-                data-category="personal projects"
-              >
-                <a href="https://github.com/anthoneees/FullStack">
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
-
-                    <img
-                      src="./assets/images/MCVBWeb.png"
-                      alt="MCVB"
-                      loading="lazy"
-                    />
-                  </figure>
-
-                  <h3 class="project-title">Mens Club Volleyball Website</h3>
-
-                  <p class="project-category">class projects</p>
-                </a>
-              </li>
-              <li
-                class="project-item active"
-                data-filter-item
-                data-category="class projects"
-              >
-                <a href="https://github.com/anthoneees/TicTacToe-AI">
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
-
-                    <img
-                      src="./assets/images/project-1.jpg"
-                      alt="tic tac toe"
-                      loading="lazy"
-                    />
-                  </figure>
-
-                  <h3 class="project-title">Tic Tac Toe</h3>
-
-                  <p class="project-category">class projects</p>
-                </a>
-              </li>
-
-              <li
-                class="project-item active"
-                data-filter-item
-                data-category="class projects"
-              >
-                <a href="https://github.com/anthoneees/Image-Editor">
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
-
-                    <img
-                      src="./assets/images/project-2.png"
-                      alt="image editor"
-                      loading="lazy"
-                    />
-                  </figure>
-
-                  <h3 class="project-title">Image Editor</h3>
-
-                  <p class="project-category">class projects</p>
-                </a>
-              </li>
-
-              <li
-                class="project-item active"
-                data-filter-item
-                data-category="class projects"
-              >
-                <a href="https://github.com/anthoneees/CustomShell">
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
-
-                    <img
-                      src="./assets/images/project-3.jpg"
-                      alt="simple shell"
-                      loading="lazy"
-                    />
-                  </figure>
-
-                  <h3 class="project-title">Simple Shell</h3>
-
-                  <p class="project-category">class Projects</p>
-                </a>
-              </li>
-
-              <li
-                class="project-item active"
-                data-filter-item
-                data-category="personal projects"
-              >
-                <a href="https://github.com/anthoneees/port_scannner">
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
-
-                    <img
-                      src="./assets/images/project-4.png"
-                      alt="port search"
-                      loading="lazy"
-                    />
-                  </figure>
-
-                  <h3 class="project-title">Port Search</h3>
-
-                  <p class="project-category">personal projects</p>
-                </a>
+              <li class="select-item">
+                <button data-select-item>personal projects</button>
               </li>
             </ul>
-          </section>
-        </article>
-      </div>
-    </main>
+          </div>
 
-    <!--
+          <ul class="project-list">
+            <li class="project-item active" data-filter-item data-category="personal projects">
+              <a href="https://github.com/anthoneees/FullStack">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/MCVBWeb.png" alt="MCVB" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">Mens Club Volleyball Website</h3>
+
+                <p class="project-category">class projects</p>
+              </a>
+            </li>
+            <li class="project-item active" data-filter-item data-category="class projects">
+              <a href="https://github.com/anthoneees/TicTacToe-AI">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-1.jpg" alt="tic tac toe" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">Tic Tac Toe</h3>
+
+                <p class="project-category">class projects</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="class projects">
+              <a href="https://github.com/anthoneees/Image-Editor">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-2.png" alt="image editor" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">Image Editor</h3>
+
+                <p class="project-category">class projects</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="class projects">
+              <a href="https://github.com/anthoneees/CustomShell">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-3.jpg" alt="simple shell" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">Simple Shell</h3>
+
+                <p class="project-category">class Projects</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="personal projects">
+              <a href="https://github.com/anthoneees/port_scannner">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-4.png" alt="port search" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">Port Search</h3>
+
+                <p class="project-category">personal projects</p>
+              </a>
+            </li>
+          </ul>
+        </section>
+      </article>
+    </div>
+  </main>
+
+  <!--
     - custom js link
   -->
-    <script src="./assets/js/script.js"></script>
+  <script src="./assets/js/script.js"></script>
 
-    <!--
+  <!--
     - ionicon link
   -->
-    <script
-      type="module"
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
-    ></script>
-    <script
-      nomodule
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
-    ></script>
-  </body>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
 </html>
